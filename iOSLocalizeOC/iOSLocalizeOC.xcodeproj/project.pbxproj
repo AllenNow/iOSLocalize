@@ -24,7 +24,6 @@
 		9FF8BBA321FEE63700095B21 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8BBA221FEE63700095B21 /* Language.m */; };
 		9FF8BBC421FEF84700095B21 /* ARLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8BBC221FEF84700095B21 /* ARLaunchScreen.storyboard */; };
 		9FFB7CE621F99B3A0057B62C /* 姬神-一人静.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7CE821F99B3A0057B62C /* 姬神-一人静.mp3 */; };
-		9FFB7CEC21F99B820057B62C /* 01-rac总结.555.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7CEE21F99B820057B62C /* 01-rac总结.555.mkv */; };
 		9FFB7CF221F99BA50057B62C /* Gigi-master.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7CF421F99BA50057B62C /* Gigi-master.zip */; };
 		9FFB7CF921F99CB40057B62C /* README.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7CFB21F99CB40057B62C /* README.json */; };
 		9FFB7D6E21F9CDF80057B62C /* CNLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB7D7021F9CDF80057B62C /* CNLaunchScreen.storyboard */; };
@@ -73,15 +72,16 @@
 		9FF8BBBB21FEF47F00095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/newYear.png; sourceTree = "<group>"; };
 		9FF8BBBC21FEF48000095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = ar; path = "ar.lproj/Gigi-master.zip"; sourceTree = "<group>"; };
 		9FF8BBBD21FEF48000095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ar; path = ar.lproj/README.json; sourceTree = "<group>"; };
-		9FF8BBBE21FEF48200095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file; name = ar; path = "ar.lproj/01-rac总结.555.mkv"; sourceTree = "<group>"; };
 		9FF8BBBF21FEF48300095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ar; path = "ar.lproj/姬神-一人静.mp3"; sourceTree = "<group>"; };
 		9FF8BBC021FEF48300095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9FF8BBC121FEF48B00095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF8BBC321FEF84700095B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ARLaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF8BBC621FF04D200095B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/movie.mp4; sourceTree = "<group>"; };
+		9FF8BBC821FF04D400095B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/movie.mp4; sourceTree = "<group>"; };
+		9FF8BBC921FF04D400095B21 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/movie.mp4"; sourceTree = "<group>"; };
+		9FF8BBCA21FF04D500095B21 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file; name = ar; path = ar.lproj/movie.mp4; sourceTree = "<group>"; };
 		9FFB7CE721F99B3A0057B62C /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = "en.lproj/姬神-一人静.mp3"; sourceTree = "<group>"; };
 		9FFB7CE921F99B430057B62C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "zh-Hans"; path = "zh-Hans.lproj/姬神-一人静.mp3"; sourceTree = "<group>"; };
-		9FFB7CED21F99B820057B62C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/01-rac总结.555.mkv"; sourceTree = "<group>"; };
-		9FFB7CEF21F99B860057B62C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/01-rac总结.555.mkv"; sourceTree = "<group>"; };
 		9FFB7CF521F99BA70057B62C /* en */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = en; path = "en.lproj/Gigi-master.zip"; sourceTree = "<group>"; };
 		9FFB7CF621F99BA80057B62C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "zh-Hans"; path = "zh-Hans.lproj/Gigi-master.zip"; sourceTree = "<group>"; };
 		9FFB7CFA21F99CB40057B62C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/README.json; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 				9FFB7DAD21FAF4910057B62C /* newYear.png */,
 				9FFB7CF421F99BA50057B62C /* Gigi-master.zip */,
 				9FFB7CFB21F99CB40057B62C /* README.json */,
-				9FFB7CEE21F99B820057B62C /* 01-rac总结.555.mkv */,
+				9FF8BBC721FF04D200095B21 /* movie.mp4 */,
 				9FFB7CE821F99B3A0057B62C /* 姬神-一人静.mp3 */,
 				9F8E354921F80C9C007511F5 /* Localizable.strings */,
 				9F534B5A21F7221800D3A27B /* Assets.xcassets */,
@@ -240,7 +240,6 @@
 				9F55D8C021FAFA7E001AB133 /* Main.storyboard in Resources */,
 				9F8E352721F80370007511F5 /* InfoPlist.strings in Resources */,
 				9FE0788F21FC47B500696455 /* AutoGenStrings.py in Resources */,
-				9FFB7CEC21F99B820057B62C /* 01-rac总结.555.mkv in Resources */,
 				9FFB7CE621F99B3A0057B62C /* 姬神-一人静.mp3 in Resources */,
 				9F534B5B21F7221800D3A27B /* Assets.xcassets in Resources */,
 			);
@@ -342,6 +341,17 @@
 			name = ARLaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		9FF8BBC721FF04D200095B21 /* movie.mp4 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF8BBC621FF04D200095B21 /* Base */,
+				9FF8BBC821FF04D400095B21 /* en */,
+				9FF8BBC921FF04D400095B21 /* zh-Hans */,
+				9FF8BBCA21FF04D500095B21 /* ar */,
+			);
+			name = movie.mp4;
+			sourceTree = "<group>";
+		};
 		9FFB7CE821F99B3A0057B62C /* 姬神-一人静.mp3 */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,16 +360,6 @@
 				9FF8BBBF21FEF48300095B21 /* ar */,
 			);
 			name = "姬神-一人静.mp3";
-			sourceTree = "<group>";
-		};
-		9FFB7CEE21F99B820057B62C /* 01-rac总结.555.mkv */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FFB7CED21F99B820057B62C /* en */,
-				9FFB7CEF21F99B860057B62C /* zh-Hans */,
-				9FF8BBBE21FEF48200095B21 /* ar */,
-			);
-			name = "01-rac总结.555.mkv";
 			sourceTree = "<group>";
 		};
 		9FFB7CF421F99BA50057B62C /* Gigi-master.zip */ = {
