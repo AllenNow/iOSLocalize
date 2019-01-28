@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  iOSLocalizeOC
+
+  Created by Allen Gao on 2019/1/23.
+  Copyright © 2019 Allen Gao. All rights reserved.
+*/
+
+"CFBundleDisplayName"="WeBo";
+NSCameraUsageDescription="use camera";
+UILaunchStoryboardName="ENLaunchScreen.storyboard";
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="koF-K6-Phb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ksp-V2-S98">
+            <objects>
+                <viewController id="6SS-rj-ZQ1" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vnu-z8-51f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newYear.png" translatesAutoresizingMaskIntoConstraints="NO" id="9KU-Cn-vFK" customClass="LocalizedImageView">
+                                <rect key="frame" x="87.5" y="164" width="200" height="106.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9KU-Cn-vFK" secondAttribute="height" multiplier="15:8" id="B6X-Gx-MjG"/>
+                                    <constraint firstAttribute="width" constant="200" id="i3H-30-rVD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="newYear.png"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXx-cP-fqo">
+                                <rect key="frame" x="87.5" y="537" width="200" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BfL-GL-jrT"/>
+                                    <constraint firstAttribute="width" constant="200" id="cSX-TS-bE6"/>
+                                </constraints>
+                                <state key="normal" title="بركة"/>
+                                <connections>
+                                    <action selector="alertAction:" destination="6SS-rj-ZQ1" eventType="touchUpInside" id="ewj-Nu-qww"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-He-gag">
+                                <rect key="frame" x="87.5" y="582" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RRf-5F-Z6c"/>
+                                    <constraint firstAttribute="width" constant="200" id="bPb-Ry-Ayp"/>
+                                </constraints>
+                                <state key="normal" title="ضبط اللغة"/>
+                                <connections>
+                                    <action selector="languageSettginBtnAction:" destination="6SS-rj-ZQ1" eventType="touchUpInside" id="Leh-N5-AUx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTl-rf-7h5">
+                                <rect key="frame" x="87.5" y="492" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Y2B-OT-Qbv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="wuf-F2-uji"/>
+                                    <constraint firstAttribute="height" constant="30" id="z1z-oD-GX0"/>
+                                </constraints>
+                                <state key="normal" title="اختر الصورة"/>
+                                <connections>
+                                    <action selector="imagePickerButton:" destination="6SS-rj-ZQ1" eventType="touchUpInside" id="MQ6-U0-0Ka"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="عام سعيد" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q4l-Mk-UDO">
+                                <rect key="frame" x="87.5" y="280.5" width="200" height="201.5"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CTl-rf-7h5" firstAttribute="leading" secondItem="Q4l-Mk-UDO" secondAttribute="leading" id="3Nz-FK-5nr"/>
+                            <constraint firstItem="9KU-Cn-vFK" firstAttribute="top" secondItem="uyu-K9-Mkf" secondAttribute="top" constant="100" id="Eg1-9p-nPi"/>
+                            <constraint firstItem="9KU-Cn-vFK" firstAttribute="centerX" secondItem="vnu-z8-51f" secondAttribute="centerX" id="JJS-O2-XKg"/>
+                            <constraint firstItem="uXx-cP-fqo" firstAttribute="top" secondItem="CTl-rf-7h5" secondAttribute="bottom" constant="15" id="PeD-Oa-oXQ"/>
+                            <constraint firstItem="4tv-He-gag" firstAttribute="centerX" secondItem="vnu-z8-51f" secondAttribute="centerX" id="Ud5-JC-0Qm"/>
+                            <constraint firstItem="4tv-He-gag" firstAttribute="top" secondItem="uXx-cP-fqo" secondAttribute="bottom" constant="15" id="YKE-ph-mwM"/>
+                            <constraint firstItem="Q4l-Mk-UDO" firstAttribute="top" secondItem="9KU-Cn-vFK" secondAttribute="bottom" constant="10" id="Ym3-lg-4ke"/>
+                            <constraint firstItem="CTl-rf-7h5" firstAttribute="trailing" secondItem="Q4l-Mk-UDO" secondAttribute="trailing" id="gcx-iD-7gF"/>
+                            <constraint firstItem="CTl-rf-7h5" firstAttribute="centerX" secondItem="vnu-z8-51f" secondAttribute="centerX" id="kPZ-DP-XkV"/>
+                            <constraint firstItem="uyu-K9-Mkf" firstAttribute="bottom" secondItem="uXx-cP-fqo" secondAttribute="bottom" constant="100" id="sFd-lh-oZR"/>
+                            <constraint firstItem="CTl-rf-7h5" firstAttribute="top" secondItem="Q4l-Mk-UDO" secondAttribute="bottom" constant="10" id="sXg-cf-gOE"/>
+                            <constraint firstItem="uXx-cP-fqo" firstAttribute="centerX" secondItem="vnu-z8-51f" secondAttribute="centerX" id="tK4-kF-PnB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uyu-K9-Mkf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5e1-Vb-J2f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jny-Ki-gMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1463.2" y="-260.41979010494754"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IVZ-hY-bvU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="koF-K6-Phb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kFP-DZ-C8V">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6SS-rj-ZQ1" kind="relationship" relationship="rootViewController" id="0xz-hE-pxq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xN0-qb-ped" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="-260.41979010494754"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="newYear.png" width="514" height="300"/>
+    </resources>
+</document>

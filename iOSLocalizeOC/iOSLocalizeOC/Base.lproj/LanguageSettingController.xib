@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LanguageSettingController">
+            <connections>
+                <outlet property="chineseButton" destination="Xhf-yu-Xc3" id="rgY-5j-dom"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhf-yu-Xc3">
+                    <rect key="frame" x="87.5" y="273.5" width="200" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="n8G-zT-79t"/>
+                        <constraint firstAttribute="height" constant="30" id="yqG-Ei-vTo"/>
+                    </constraints>
+                    <state key="normal" title="中文"/>
+                    <connections>
+                        <action selector="chineseButtonAction:" destination="-1" eventType="touchUpInside" id="uBG-6y-Mpg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOH-VW-4I1">
+                    <rect key="frame" x="87.5" y="318.5" width="200" height="30"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="EmU-4C-28b"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="TCT-Mb-aXg"/>
+                        <constraint firstAttribute="width" constant="200" id="ZJZ-85-muD"/>
+                        <constraint firstAttribute="height" constant="30" id="rQv-OF-bYG"/>
+                    </constraints>
+                    <state key="normal" title="英文"/>
+                    <connections>
+                        <action selector="englishButtonAction:" destination="-1" eventType="touchUpInside" id="6h1-LT-lXR"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newYear.png" translatesAutoresizingMaskIntoConstraints="NO" id="yci-1Q-tHv" customClass="LocalizedImageView">
+                    <rect key="frame" x="87.5" y="40" width="200" height="106.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Rlt-n0-Mpa"/>
+                        <constraint firstAttribute="width" constant="200" id="trZ-Ib-sSY"/>
+                        <constraint firstAttribute="width" secondItem="yci-1Q-tHv" secondAttribute="height" multiplier="15:8" id="wqG-wc-zKb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="newYear.png"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqs-2J-Xqg">
+                    <rect key="frame" x="87.5" y="363.5" width="200" height="30"/>
+                    <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="G9c-z8-1cJ"/>
+                        <constraint firstAttribute="height" constant="30" id="jsP-jZ-erf"/>
+                    </constraints>
+                    <state key="normal" title="阿拉伯语"/>
+                    <connections>
+                        <action selector="arButtonAction:" destination="-1" eventType="touchUpInside" id="jQi-12-qdd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WOH-VW-4I1" firstAttribute="top" secondItem="Xhf-yu-Xc3" secondAttribute="bottom" constant="15" id="029-yC-mwU"/>
+                <constraint firstItem="yci-1Q-tHv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Nn-Z6-9M2"/>
+                <constraint firstItem="Xhf-yu-Xc3" firstAttribute="leading" secondItem="iqs-2J-Xqg" secondAttribute="leading" id="BTP-gC-pIX"/>
+                <constraint firstItem="yci-1Q-tHv" firstAttribute="width" secondItem="yci-1Q-tHv" secondAttribute="height" multiplier="15:8" id="JgT-sc-1Lr"/>
+                <constraint firstItem="Xhf-yu-Xc3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YLz-80-qdn"/>
+                <constraint firstItem="yci-1Q-tHv" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="YpS-TP-uL2"/>
+                <constraint firstItem="iqs-2J-Xqg" firstAttribute="top" secondItem="WOH-VW-4I1" secondAttribute="bottom" constant="15" id="jo2-Yh-urr"/>
+                <constraint firstItem="WOH-VW-4I1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kp6-WY-rRW"/>
+                <constraint firstItem="Xhf-yu-Xc3" firstAttribute="trailing" secondItem="iqs-2J-Xqg" secondAttribute="trailing" id="mvE-qV-lIL"/>
+                <constraint firstItem="WOH-VW-4I1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sK4-pB-nYf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="newYear.png" width="514" height="300"/>
+    </resources>
+</document>

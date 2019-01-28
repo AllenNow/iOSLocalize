@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iOSLocalizeOC
+
+  Created by Allen Gao on 2019/1/23.
+  Copyright © 2019 Allen Gao. All rights reserved.
+*/
+
+"Happy New Year" = "新年快乐";
+Greeting="祝福语";
+Confirm="确定";
