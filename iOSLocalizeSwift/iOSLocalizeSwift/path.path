@@ -1,0 +1,14 @@
+.//AppDelegate.swift
+.//Assets.xcassets/AppIcon.appiconset/Contents.json
+.//Assets.xcassets/Contents.json
+.//Base.lproj/LaunchScreen.storyboard
+.//Base.lproj/Main.storyboard
+.//Info.plist
+.//Launch/LaunchViewController.swift
+.//Launch/LaunchViewController.xib
+.//Localizable.strings
+.//ViewController.swift
+.//en.lproj/Localizable.strings
+.//en.lproj/Main.strings
+.//zh-Hans.lproj/Localizable.strings
+.//zh-Hans.lproj/Main.strings
