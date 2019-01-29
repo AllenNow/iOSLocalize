@@ -263,8 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "python ${SRCROOT}/${TARGET_NAME}/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

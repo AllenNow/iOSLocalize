@@ -57,7 +57,6 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         object_setClass([NSBundle mainBundle], [BundleEx class]);
-        object_setClass([NSBundle mainBundle], [BundleEx class]);
     });
     
     

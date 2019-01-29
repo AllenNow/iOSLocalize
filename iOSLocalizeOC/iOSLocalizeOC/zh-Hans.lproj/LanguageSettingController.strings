@@ -6,3 +6,17 @@
 "Xhf-yu-Xc3.normalTitle" = "中文";
 /* Class = "UIButton"; normalTitle = "阿拉伯语"; ObjectID = "iqs-2J-Xqg"; */
 "iqs-2J-Xqg.normalTitle" = "阿拉伯语";
+
+//##################################################################################
+//#           AutoGenStrings            2019-01-29 11:11:25
+//##################################################################################
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Z3B-uZ-Udc"; */
+"Z3B-uZ-Udc.text" = "Label";
+
+//##################################################################################
+//#           AutoGenStrings            2019-01-29 11:11:59
+//##################################################################################
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JPm-Nt-QIV"; */
+"JPm-Nt-QIV.normalTitle" = "Button";
