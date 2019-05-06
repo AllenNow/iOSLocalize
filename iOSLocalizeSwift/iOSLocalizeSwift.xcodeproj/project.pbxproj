@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3674DC221CE554008B2420 /* New Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3674DB221CE554008B2420 /* New Class.swift */; };
 		9F534B7421F7223500D3A27B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F534B7321F7223500D3A27B /* AppDelegate.swift */; };
 		9F534B7621F7223500D3A27B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F534B7521F7223500D3A27B /* ViewController.swift */; };
 		9F534B7921F7223500D3A27B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F534B7721F7223500D3A27B /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F3674DB221CE554008B2420 /* New Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New Class.swift"; sourceTree = "<group>"; };
 		9F534B7021F7223500D3A27B /* iOSLocalizeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLocalizeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F534B7321F7223500D3A27B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F534B7521F7223500D3A27B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F3674DA221CE535008B2420 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9F3674DB221CE554008B2420 /* New Class.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		9F534B6721F7223500D3A27B = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		9F534B7221F7223500D3A27B /* iOSLocalizeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9F3674DA221CE535008B2420 /* New Group */,
 				9FF8BBDD2200477F00095B21 /* genstrings.sh */,
 				9FF8BBD52200427F00095B21 /* Launch */,
 				9F534B7321F7223500D3A27B /* AppDelegate.swift */,
@@ -176,6 +187,7 @@
 				9F534B7621F7223500D3A27B /* ViewController.swift in Sources */,
 				9FF8BBD82200429F00095B21 /* LaunchViewController.swift in Sources */,
 				9F534B7421F7223500D3A27B /* AppDelegate.swift in Sources */,
+				9F3674DC221CE554008B2420 /* New Class.swift in Sources */,
 				9FF8BBDB2200467400095B21 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
